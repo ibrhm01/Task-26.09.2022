@@ -1,0 +1,503 @@
+.apply-btn button {
+    background-color: rgb(255, 255, 0);
+    border: 0;
+    padding: 15px 35px;
+    font-weight: 900;
+}
+
+.icon li {
+    margin: 0px 10px 50px 10px;
+}
+
+.icon .additional li i {
+    display: none;
+}
+
+.code-logo img {
+    height: 100px;
+    width: 150px;
+}
+
+.header-top p {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.header-top {
+    height: 80px;
+}
+
+img {
+    background-color: black;
+}
+
+.pages ul {
+    margin-bottom: 50px;
+    margin-left: 100px;
+    position: relative;
+    right: 230px;
+}
+
+.pages li {
+    margin: 0px 20px;
+    font-weight: 600;
+}
+
+#slider .image img {
+    height: 600px;
+    width: 100%;
+}
+
+.card {
+    width: 277px;
+    height: 200px;
+}
+
+.title h3 span:nth-child(1) {
+    font-weight: 900;
+}
+
+.title h3 span:nth-child(2) {
+    font-weight: 200;
+}
+
+.title h3 {
+    width: 100px;
+    position: relative;
+}
+
+.title p {
+    width: 600px;
+    margin-top: 90px;
+}
+
+.education-item p {
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.purple:hover {
+    transform: scale(1.2, 1.2);
+    background-color: rgb(135, 35, 135);
+    z-index: 9999;
+}
+
+.yellow:hover {
+    transform: scale(1.2, 1.2);
+    background-color: rgb(215, 215, 40);
+    z-index: 9999;
+}
+
+.blue:hover {
+    transform: scale(1.2, 1.2);
+    z-index: 9999;
+    background-color: rgb(51, 51, 165)
+}
+
+.green:hover {
+
+    z-index: 9999;
+    transform: scale(1.2, 1.2);
+    background-color: rgb(40, 141, 40)
+}
+
+#education .title h3::after,
+#why-code-az .title h3::after {
+    content: "";
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    width: 80px;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    right: 20px;
+    margin: 40px 0px;
+}
+
+#education {
+    margin-top: 100px;
+}
+
+#why-code-az {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.image img {
+    width: 208px;
+    height: 208px;
+}
+
+.why-code-az-item {
+    max-width: 500px;
+    margin-top: 60px;
+}
+
+.why-code-az-item .text {
+
+    margin-left: 50px;
+}
+
+.info-text h5 {
+    width: 700px;
+}
+
+#info {
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("/assets/home/code-academy-bg.jpeg");
+}
+
+.comment-item {
+    width: 200px;
+    position: relative;
+    left: 500px;
+    margin-top: 30px;
+}
+
+.comment-title h2 span:nth-child(1) {
+    font-weight: 300;
+}
+
+.comment-title h2 span:nth-child(2) {
+    font-weight: 900;
+}
+
+.comment-title h2 {
+    font-size: 50px;
+    margin: 0 300px;
+}
+
+.comment-container {
+    position: relative;
+    top: 60px;
+}
+
+.comment-title p {
+    text-align: center;
+    width: 800px;
+    margin: 20px 150px 0px 150px;
+    font-size: 20px;
+    color: gray;
+}
+
+.comment-item img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.name-profession h5,
+.name-profession p {
+    width: 200px;
+}
+
+.name-profession {
+    margin-top: 20px;
+    position: relative;
+    right: 70px;
+}
+
+.comment-item .image {
+    position: relative;
+    right: 100px;
+}
+
+.name-profession h5 {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.name-profession h6 {
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#comment {
+    min-height: 500px;
+}
+
+#partner .title h3 span:first-child {
+    font-weight: 300;
+}
+
+#partner .title h3 span:nth-child(2) {
+    font-weight: 900;
+}
+
+#partner .title h3 {
+    font-size: 50px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+#partner .title h3 span:first-child {
+    margin-left: 90px;
+    margin-bottom: 0px;
+}
+
+#partner .title p {
+    text-align: center;
+    width: 510px;
+    margin-left: 300px;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    position: relative;
+}
+
+#partner .title p::after {
+    content: "";
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    width: 80px;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    /* left:1px; */
+    right: 215px;
+    margin-top: 30px;
+}
+
+.icon img {
+    height: 68px;
+    width: 120px;
+    margin: 0px 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+#our-alumni .title h3 {
+    position: relative;
+    right: 30px;
+}
+
+#our-alumni .title h3::after {
+    content: "";
+    background-color: yellow;
+    width: 80px;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#our-alumni img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+#our-alumni ul {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.our-alumni-container {
+    width: 100%;
+}
+
+#our-alumni .title h3 span:first-child {
+    margin-left: 40px;
+}
+
+#our-alumni .title {
+    margin: 0px 500px;
+}
+
+#question .title h3 span:first-child {
+    font-weight: 300;
+    font-size: 50px;
+    width: 200px;
+}
+
+#question .title h3 span:nth-child(2) {
+    font-weight: 900;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+#question .title h3 {
+    width: 300px;
+    text-align: start;
+}
+
+#question .title p {
+    margin-top: 30px;
+    width: 300px;
+}
+
+#question button {
+    background-color: rgb(247, 247, 0);
+    border: 0px;
+    color: white;
+}
+
+#question #a,
+#question #b {
+    width: 47%;
+}
+
+#question #c {
+    width: 15%;
+}
+
+#question #d {
+    width: 80%;
+}
+
+#question #e,
+#question button {
+    width: 100%;
+}
+
+#question input {
+    margin: 5px;
+}
+
+#question input {
+
+    height: 60px;
+}
+
+#question .form-tags {
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+}
+
+#question button {
+    padding: 20px 0px;
+}
+
+#question .title {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+#question {
+    background-color: rgb(228, 228, 228);
+
+}
+
+ul li {
+    margin: 5px;
+}
+
+ul {
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+#shortcut ul li {
+    color: rgb(69, 69, 69);
+}
+
+#shortcut h6 {
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+#last-part .footer-top {
+    background-color: rgb(211, 211, 211);
+}
+
+#last-part .contact p span {
+    font-weight: 800;
+}
+
+.footer-top {
+    height: 70px;
+}
+
+#last-part .contact p {
+    margin-top: 25px;
+}
+
+.footer-bottom img {
+    height: 150px;
+    width: 200px;
+}
+
+.footer-bottom p {
+    margin-top: 60px;
+}
+
+.footer-bottom img {
+    margin-left: 60px;
+}
+
+.footer-bottom ul {
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+#info h5,
+#info p,
+#info h3,
+#info h6 {
+    color: white;
+}
+
+#info h3 {
+    font-size: 70px;
+    font-weight: 800;
+}
+
+#info h6 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.info-text h5 {
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 200px;
+}
+
+#info .row {
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+#education .title p {
+    width: 450px;
+}
+
+@media only screen and (max-width: 980px) {
+    #question .title {
+        position: relative;
+        right: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #question .title {
+        position: relative;
+        right: 230px;
+    }
+
+    .header-top .additional li {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .header-top,
+    .header-bottom .pages {
+        display: none;
+    }
+
+    .icon .additional li i {
+        display: block;
+    }
+
+}
